@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "AdvertPlatforms.Controllers.AdvertController",
+    "Method": "GetAdvertis",
+    "RelativePath": "api/Advert/GetAdvertis",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "location",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdvertPlatforms.Controllers.AdvertController",
+    "Method": "Load",
+    "RelativePath": "api/Advert/Load",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
