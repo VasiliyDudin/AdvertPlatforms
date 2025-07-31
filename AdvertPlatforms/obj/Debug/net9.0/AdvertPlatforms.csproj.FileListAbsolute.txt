@@ -35,3 +35,4 @@ C:\Effective Mobile\AdvertPlatforms\AdvertPlatforms\obj\Debug\net9.0\refint\Adve
 C:\Effective Mobile\AdvertPlatforms\AdvertPlatforms\obj\Debug\net9.0\AdvertPlatforms.pdb
 C:\Effective Mobile\AdvertPlatforms\AdvertPlatforms\obj\Debug\net9.0\AdvertPlatforms.genruntimeconfig.cache
 C:\Effective Mobile\AdvertPlatforms\AdvertPlatforms\obj\Debug\net9.0\ref\AdvertPlatforms.dll
+C:\Effective Mobile\AdvertPlatforms\AdvertPlatforms\obj\Debug\net9.0\AdvertPlatforms.sourcelink.json

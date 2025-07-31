@@ -58,7 +58,7 @@ namespace AdvertPlatforms.Service
             return true;
         }
 
-        public async Task<List<string>> FindPlatforms(string location)
+        public async Task<List<string>> FindPlatformsAsync(string location)
         {
             var result = new HashSet<string>();
 

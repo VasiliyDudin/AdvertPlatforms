@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdvertPlatforms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e22209d0b6ea0bc1460f936762ca16b337df0ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdvertPlatforms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdvertPlatforms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

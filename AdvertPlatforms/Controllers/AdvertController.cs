@@ -17,19 +17,19 @@ namespace AdvertPlatforms.Controllers
         /// <returns></returns>
         // GET api/Request/GetAdvertis
         [HttpGet]
-        public IResult GetAdvertis(string location)
+        public async Task<ActionResult<List<string>>> GetAdvertis(string location)
         {
             try
             {
                 if (string.IsNullOrWhiteSpace(location) || location[0] != '/')
-                    return Results.BadRequest("Заданная локация не корректна !");
+                    return BadRequest("Заданная локация не корректна !");
 
-                var platforms = _service.FindPlatforms(location).GetAwaiter().GetResult();
-                return Results.Ok(platforms);
+                var platforms = await _service.FindPlatformsAsync(location);//_service.FindPlatforms(location).GetAwaiter().GetResult();
+                return Ok(platforms);
             }
             catch (Exception ex)
             {
-                return Results.Problem($"Ошибка поиска: {ex.Message}");
+                return Problem($"Ошибка поиска: {ex.Message}");
             }
         }
 
@@ -39,17 +39,17 @@ namespace AdvertPlatforms.Controllers
         /// <returns></returns>
         // PUT: api/Request/Edit/5
         [HttpPut]
-        public IResult Load(IFormFile file)
+        public IActionResult Load(IFormFile file)
         {
             try
             {
                 // Проверка наличия файла
                 if (file == null || file.Length == 0)
-                    return Results.BadRequest("Файл пустой");
+                    return BadRequest("Файл пустой");
 
                 // Проверка размера файла (например, не более 5MB)
                 if (file.Length > 5 * 1024 * 1024)
-                    return Results.BadRequest("Размер файла превышает - 5MB");
+                    return BadRequest("Размер файла превышает - 5MB");
 
                 string content = string.Empty;
 
@@ -61,12 +61,12 @@ namespace AdvertPlatforms.Controllers
                 }
 
                 // Обработка данных
-                return _service.LoadData(content) ? Results.Ok(new { message = "Данные из файла загруженны корректно", fileName = file.FileName }) 
-                                                  : Results.BadRequest("Файл не корректный");
+                return _service.LoadData(content) ? Ok(new { message = "Данные из файла загруженны корректно", fileName = file.FileName })
+                                                  : BadRequest("Файл не корректный");
             }
             catch (Exception ex)
             {
-                return Results.Problem($"Ошибка загрузки: {ex.Message}");
+                return Problem($"Ошибка загрузки: {ex.Message}");
             }
         }
     }

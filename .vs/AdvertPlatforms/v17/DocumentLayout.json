@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Effective Mobile\\AdvertPlatforms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36B2874F-E522-4350-9843-55B325AC8661}|AdvertPlatforms\\AdvertPlatforms.csproj|c:\\effective mobile\\advertplatforms\\advertplatforms\\controllers\\advertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36B2874F-E522-4350-9843-55B325AC8661}|AdvertPlatforms\\AdvertPlatforms.csproj|solutionrelative:advertplatforms\\controllers\\advertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36B2874F-E522-4350-9843-55B325AC8661}|AdvertPlatforms\\AdvertPlatforms.csproj|c:\\effective mobile\\advertplatforms\\advertplatforms\\service\\advertisingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36B2874F-E522-4350-9843-55B325AC8661}|AdvertPlatforms\\AdvertPlatforms.csproj|solutionrelative:advertplatforms\\service\\advertisingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B2874F-E522-4350-9843-55B325AC8661}|AdvertPlatforms\\AdvertPlatforms.csproj|c:\\effective mobile\\advertplatforms\\advertplatforms\\controllers\\advertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B2874F-E522-4350-9843-55B325AC8661}|AdvertPlatforms\\AdvertPlatforms.csproj|solutionrelative:advertplatforms\\controllers\\advertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36B2874F-E522-4350-9843-55B325AC8661}|AdvertPlatforms\\AdvertPlatforms.csproj|c:\\effective mobile\\advertplatforms\\advertplatforms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,26 +30,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AdvertisingService.cs",
               "DocumentMoniker": "C:\\Effective Mobile\\AdvertPlatforms\\AdvertPlatforms\\Service\\AdvertisingService.cs",
               "RelativeDocumentMoniker": "AdvertPlatforms\\Service\\AdvertisingService.cs",
               "ToolTip": "C:\\Effective Mobile\\AdvertPlatforms\\AdvertPlatforms\\Service\\AdvertisingService.cs",
               "RelativeToolTip": "AdvertPlatforms\\Service\\AdvertisingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAUwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T11:57:10.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AdvertController.cs",
               "DocumentMoniker": "C:\\Effective Mobile\\AdvertPlatforms\\AdvertPlatforms\\Controllers\\AdvertController.cs",
               "RelativeDocumentMoniker": "AdvertPlatforms\\Controllers\\AdvertController.cs",
               "ToolTip": "C:\\Effective Mobile\\AdvertPlatforms\\AdvertPlatforms\\Controllers\\AdvertController.cs",
               "RelativeToolTip": "AdvertPlatforms\\Controllers\\AdvertController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAUwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T11:44:45.982Z",
               "EditorCaption": ""
@@ -62,7 +62,7 @@
               "RelativeDocumentMoniker": "AdvertPlatforms\\Program.cs",
               "ToolTip": "C:\\Effective Mobile\\AdvertPlatforms\\AdvertPlatforms\\Program.cs",
               "RelativeToolTip": "AdvertPlatforms\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T11:31:11.775Z",
               "EditorCaption": ""
